@@ -14,9 +14,11 @@ public class AddTwoNumbers {
 
         // Add the two numbers
         int sum = num1 + num2;
-
-        // Display the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        // Subtract the two numbers
+        int difference = num1 - num2;
+        System.out.println("The difference between " + num1 + " and " + num2 + " is: " + difference);
 
         // Close the scanner
         scanner.close();
